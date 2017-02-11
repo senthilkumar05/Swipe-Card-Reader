@@ -10,7 +10,7 @@ namespace SwipeCardDataProcessor
     {
         static void Main(string[] args)
         {
-
+             
             var s = DateTime.ParseExact("10:30:00 AM","HH:mm:ss tt",System.Globalization.CultureInfo.InvariantCulture);
             string[] swipedataStrings = System.IO.File.ReadAllLines("swipedata.txt");
             List<SwipeData> swipeDataList = SwipeCardDataHelper.GetSwipeData(swipedataStrings);
