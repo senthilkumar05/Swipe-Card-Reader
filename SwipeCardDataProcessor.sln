@@ -1,0 +1,28 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio 14
+VisualStudioVersion = 14.0.23107.0
+MinimumVisualStudioVersion = 10.0.40219.1
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "SwipeCardDataProcessor", "SwipeCardDataProcessor\SwipeCardDataProcessor.csproj", "{597C7A98-EC42-4021-84BA-9B0457E02093}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "SwipeCardLib", "SwipeCardLib\SwipeCardLib.csproj", "{38E2BA85-941F-4E22-9D7B-FEE5ADEE7D51}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{597C7A98-EC42-4021-84BA-9B0457E02093}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{597C7A98-EC42-4021-84BA-9B0457E02093}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{597C7A98-EC42-4021-84BA-9B0457E02093}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{597C7A98-EC42-4021-84BA-9B0457E02093}.Release|Any CPU.Build.0 = Release|Any CPU
+		{38E2BA85-941F-4E22-9D7B-FEE5ADEE7D51}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{38E2BA85-941F-4E22-9D7B-FEE5ADEE7D51}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{38E2BA85-941F-4E22-9D7B-FEE5ADEE7D51}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{38E2BA85-941F-4E22-9D7B-FEE5ADEE7D51}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+EndGlobal

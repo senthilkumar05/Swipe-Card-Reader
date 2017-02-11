@@ -1,0 +1,12 @@
+﻿Total hour Calulation {2} FirstCheckIn & Last CheckOut,Every Valid Check-in & Check-out
+Break Time {1},00.30
+Attendance Mode {2} Strict Mode,Lenient Mode
+
+<attendance>
+<totalhourCalculation mode="FirstCheckIn & Last CheckOut"/>
+<breakTime hours="00.30"/>
+<attendanceMode use>
+	<strict fullday="08.00" halfday ="04.00"/>
+	<lenient perday="08.00"/>
+</attendanceMode>
+</attendance>
