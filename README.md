@@ -1,18 +1,19 @@
 # Swipe-Card-Reader
 This is simple C# library to read and manipulate employee's swipe card data
 
-Sample Swipe card data
+<h2>Sample Swipe card data</h2>
+
 00001000000000040 201604011150I000001
 00001000000000040 201604011230O000001
 00001000000000040 201604011240I000001
 00001000000000040 201604011850O000001
 
+<h2>Usage<h2>
 
-Usage
             string empId = "000000000040";
             string swipeDataFile = Path.Combine(Directory.GetParent(Directory.GetCurrentDirectory()).Parent.FullName, "swipedata.txt");
 
-            // Read swipe data from txt file.
+      
             SwipeDataFromFile swipeDate = new SwipeDataFromFile(swipeDataFile);
 
             // Create swipeCardManager to process swipe data
@@ -36,3 +37,4 @@ Usage
                 Console.WriteLine("EmpId:{0}\tWork:{1}\tLate:{2}\tExtra:{3}",
                     info.EmployeeId, info.TotalWorkInMinutes, info.LateInMinutes, info.ExtraWorkInMinutes);
             }
+      
